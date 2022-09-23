@@ -11,8 +11,7 @@ const View = () => {
     <div className= ' top-0 left-0 right-0 bottom-0 z-0 w-screen relative '>
       <Hero/>
         <div className=" w-[80%] relative mx-auto mt-8  ">
-                
-            
+                     
                 <Section1 />
                 <Section2/>
                 <Footer/>

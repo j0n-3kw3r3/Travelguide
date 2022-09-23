@@ -42,9 +42,10 @@ const Hero = () => {
   return (
     <div>
               <div className='h-[350px] md:h-80  relative bg-secondary '  >
-          <div className=" relative">
+          <div className=" relative w-full h-full">
 
-        <img src={hero} alt="/" className=" w-screen z-0 h-[350px] md:h-80 mix-blend-burn opacity-50 object-cover"/>
+          <img src={hero} alt="/" className=" w-[100
+          5] z-0 h-[100%] md:h-80 mix-blend-burn opacity-50 object-cover"/>
           </div>
              <div className=" w-[80%] absolute right-0 left-0  top-0 mx-auto h-full   ">
 
